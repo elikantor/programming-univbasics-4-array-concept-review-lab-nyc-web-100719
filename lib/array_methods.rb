@@ -18,7 +18,7 @@ def find_max_value(array)
     if array[c] >= h
       h = array[c]
     end
-  c += l 
+  c += 1 
   end
 
   print h 
